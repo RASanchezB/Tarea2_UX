@@ -1,15 +1,32 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-
-<style>
-
-</style>
-
+<title> Cambio de estilos</title>
 <head>
-
+    
+     <link id= "Estilos" rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
+        <button onclick="Funciona()">Cambiar estilo a 1</button> 
+        <button onclick="Funciona2()">Cambiar estilo a 2</button> 
+        <button onclick="Funciona3()">Cambiar estilo a 3</button> 
+        <button onclick="Funciona4()">Cambiar estilo a 4</button> 
+        <p style="color: black">Ni idea si esto va a funcionar</p>
 
+
+        <script>
+            function Funciona(){
+                document.getElementById("Estilos").href="mystyle.css";
+            }
+            function Funciona2(){
+                document.getElementById("Estilos").href="mystyle2.css";
+            }
+            function Funciona3(){
+                document.getElementById("Estilos").href="mystyle3.css";
+            }
+            function Funciona4(){
+                document.getElementById("Estilos").href="mystyle4.css";
+            }
+        </script>
 
 </body>
-</html> 
+</html>
